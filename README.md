@@ -1,4 +1,4 @@
-<h1 align="center">🤖 Autonomous PID Wall-Following Rover</h1>
+<h1 align="center"> Autonomous PID Wall-Following Rover</h1>
 
 <div align="center">
   <strong>An advanced closed loop control system built for precision navigation and dynamic obstacle avoidance.</strong><br>

@@ -10,7 +10,7 @@
 ## 📋 Project Overview
 This repository contains the C++ firmware and control logic for a custom differential drive robotic rover. Moving beyond basic delay-based navigation, this project implements a **Proportional Integral Derivative (PID) controller** to maintain a mathematically precise 15cm distance from a parallel wall. 
 
-The architecture features a **priority-based hardware interrupt system**. A secondary forward-facing ultrasonic sensor constantly monitors the path ahead; if an obstacle is detected within 20cm, the PID loop is suspended, and the rover executes a rapid differential point-turn to clear the path before resuming autonomous wall-following.
+The architecture features a **priority-based hardware interrupt system**. A secondary forward-facing ultrasonic sensor constantly monitors the path ahead; if an obstacle is detected within 20cm, the PID loop is suspended, and the rover executes a rapid differential point turn to clear the path before resuming autonomous wall-following.
 
 ---
 
@@ -22,7 +22,7 @@ The physical build is optimized for high-torque delivery and logic stability.
 | **Microcontroller** | Arduino Nano (ATmega328P) | Brains of the operation; computes PID math at 50Hz. |
 | **Motor Driver** | L298N Dual H-Bridge | Handles high-current switching and differential steering. |
 | **Sensors** | 2x HC-SR04 Ultrasonic | Spatial awareness (Front: Collision, Left: PID Error tracking). |
-| **Power Plant** | 7.4V Li-Ion (2x 18650) | High-discharge series pack for maximum gear-motor torque. |
+| **Power Plant** | 7.4V Li-Ion (2x 18650) | High-discharge series pack for maximum gear motor torque. |
 | **Chassis** | 2WD Acrylic Base | Differential drive configuration with front caster wheel. |
 
 ---

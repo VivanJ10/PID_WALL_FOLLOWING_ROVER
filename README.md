@@ -38,8 +38,8 @@ Proper power distribution is critical in this build. To prevent the Nano from ex
 | Arduino Pin | Hardware Connection | Purpose |
 | :---: | :--- | :--- |
 | `D5`, `D6` | L298N `ENA`, `ENB` | PWM Speed Control (0-255) |
-| `D3`, `D4` | L298N `IN1`, `IN2` | Left Motor Direction |
-| `D7`, `D8` | L298N `IN3`, `IN4` | Right Motor Direction |
+| `D3`, `D2` | L298N `IN1`, `IN2` | Left Motor Direction |
+| `D7`, `D4` | L298N `IN3`, `IN4` | Right Motor Direction |
 | `D9`, `D10` | Left HC-SR04 (`TRIG`, `ECHO`) | Side Wall Distance (PID Input) |
 | `D11`, `D12` | Front HC-SR04 (`TRIG`, `ECHO`)| Collision Detection (Interrupt Input)|
 
